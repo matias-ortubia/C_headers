@@ -20,7 +20,7 @@ typedef struct linked_list LinkedList_t;
 LinkedList_t *linkedList_create();
 void linkedList_destroy(LinkedList_t *list);
 
-// TODO Get & Set
+// Get & Set
 void *linkedList_get(LinkedList_t *list, size_t index); // devuelve el dato guardado en el nodo en la posicion index
 void *linkedList_set(LinkedList_t *list, size_t index, void *value); // cambia el dato de un nodo que ya existe
 void *linkedList_insert(LinkedList_t *list, size_t index, void *value); // inserta un nuevo nodo en la posicion index
